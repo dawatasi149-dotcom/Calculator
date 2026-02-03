@@ -15,17 +15,17 @@ body{
 
 
 }
-.display input{
+#display {
     width: 99%;
     height: 70px;
     background-color: #F1F3E0;
-    color: wheat;
+    color:black;
     border: none;
     border-radius: 20px;
     padding: 2px;
     margin-top: 3px;
-    font-size: 5rem;
-    color: wheat;
+    font-size: 2rem;
+    color:rgb(73, 40, 40);
     text-align: left;
     
 }
@@ -58,4 +58,10 @@ button:hover{
 }
 button:active{
     background-color: rgb(100, 101, 115);
+}
+.operator{
+background-color: rgb(230, 126, 34);
+}
+.function{
+    background-color: rgb(255, 91, 91);
 }
